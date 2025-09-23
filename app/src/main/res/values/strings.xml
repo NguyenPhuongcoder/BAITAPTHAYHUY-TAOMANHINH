@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">BTTHAYHUY-GiaoDienUser</string>
+    <string name="login_title">Đăng nhập</string>
+    <string name="email_label">Email :</string>
+    <string name="password_label">Mật khẩu</string>
+    <string name="login_button">Đăng nhập</string>
+    <string name="login_button_desc">Nút đăng nhập</string>
+    <string name="email_hint">Nhập email</string>
+    <string name="password_hint">Nhập mật khẩu</string>
 </resources>
