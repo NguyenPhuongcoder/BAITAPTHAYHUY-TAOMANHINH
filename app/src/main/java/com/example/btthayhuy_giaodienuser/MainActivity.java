@@ -33,6 +33,10 @@ public class MainActivity extends AppCompatActivity {
             // Thông tin mặc định
             String defaultEmail = "user@gmail.com";
             String defaultPassword = "123456";
+            if (email.isEmpty() || password.isEmpty()) {
+                Toast.makeText(MainActivity.this, "Vui lòng nhập đầy đủ email và mật khẩu!", Toast.LENGTH_SHORT).show();
+                return;
+            }
             if(email.equals(defaultEmail) && password.equals(defaultPassword)) {
                 Intent intent = new Intent(MainActivity.this, UserProfile.class);
                 startActivity(intent);
